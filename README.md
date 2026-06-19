@@ -12,7 +12,7 @@ A single-page birthday website ready for GitHub Pages.
 1. Create a new GitHub repository (e.g. `pratham-birthday`).
 2. Upload these files (keep the folder structure as-is).
 3. Go to **Settings → Pages**, set source to `main` branch, root folder.
-4. Your site will be live at `https://<your-username>.github.io/pratham-birthday/`.
+4. Your site will be live at `https://prathamdadaa.github.io/pratham-birthday/`.
 
 ## Customize
 - Edit the message text directly in `index.html` inside `<p class="message">`.
