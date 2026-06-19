@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Pratham Dada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="stars" id="stars"></div>
+
+  <main class="stage">
+    <div class="card">
+      <p class="eyebrow">A SMALL TRIBUTE FOR A BIG BROTHER</p>
+
+      <h1 class="headline">
+        <span class="float-line">Happy</span>
+        <span class="float-line gold">Birthday</span>
+        <span class="float-line">Pratham Dada</span>
+      </h1>
+
+      <div class="divider"><span></span><i>✦</i><span></span></div>
+
+      <p class="message">
+        Dada, some people just make life feel lighter — you're one of them.
+        Thank you for every piece of advice I didn't ask for but needed,
+        every laugh at 2 AM, and every time you had my back without making
+        it a big deal. Here's to another year of you being effortlessly
+        awesome. May this year bring you everything you deserve, and a
+        little more.
+      </p>
+
+      <div class="actions">
+        <button id="confetti-btn" class="btn btn-primary">
+          <span>Celebrate 🎉</span>
+        </button>
+        <button id="music-btn" class="btn btn-ghost" aria-pressed="false">
+          <span id="music-icon">🔈</span>
+          <span id="music-label">Play music</span>
+        </button>
+      </div>
+
+      <audio id="bg-audio" src="audio/birthday-tune.mp3" loop preload="none"></audio>
+    </div>
+
+    <footer class="credit">Crafted by Pratham Dada</footer>
+  </main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvas-confetti/1.9.2/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
